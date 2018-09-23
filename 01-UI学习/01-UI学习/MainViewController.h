@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MainViewController.h
 //  01-UI学习
 //
 //  Created by 汪大强 on 2018/9/22.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface MainViewController : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END

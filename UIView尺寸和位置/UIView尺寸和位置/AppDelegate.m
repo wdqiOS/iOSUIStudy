@@ -1,13 +1,12 @@
 //
 //  AppDelegate.m
-//  01-UI学习
+//  UIView尺寸和位置
 //
-//  Created by 汪大强 on 2018/9/22.
+//  Created by 汪大强 on 2018/9/23.
 //  Copyright © 2018年 LZ. All rights reserved.
 //
 
 #import "AppDelegate.h"
-#import "MainViewController.h"
 
 @interface AppDelegate ()
 
@@ -18,8 +17,6 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    
-    
     return YES;
 }
 
