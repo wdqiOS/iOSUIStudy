@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aam-D8-SMp">
+                                <rect key="frame" x="83" y="83" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fSw-fF-NaH">
+                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="uCA-Rq-NoU"/>
+                                </constraints>
+                                <items>
+                                    <barButtonItem enabled="NO" title="后退" id="bDz-k0-iMI">
+                                        <connections>
+                                            <action selector="gobackBtnClick:" destination="BYZ-38-t0r" id="Vc7-hs-dTc"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem enabled="NO" title="前进" id="Hp5-cI-H9o">
+                                        <connections>
+                                            <action selector="goForwardBtnClick:" destination="BYZ-38-t0r" id="LUk-YH-a9S"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="gg2-rg-DD9"/>
+                                    <barButtonItem title="刷新" id="9rg-3C-lse">
+                                        <connections>
+                                            <action selector="reloadBtnClick:" destination="BYZ-38-t0r" id="rO0-vb-FtK"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OLK-JL-wgp">
+                                <rect key="frame" x="0.0" y="20" width="375" height="603"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="OLK-JL-wgp" secondAttribute="trailing" id="1vh-lb-dCh"/>
+                            <constraint firstItem="fSw-fF-NaH" firstAttribute="top" secondItem="OLK-JL-wgp" secondAttribute="bottom" id="WJP-2r-OAp"/>
+                            <constraint firstItem="fSw-fF-NaH" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="WVE-Qc-6if"/>
+                            <constraint firstItem="OLK-JL-wgp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="aXd-X1-HWU"/>
+                            <constraint firstItem="fSw-fF-NaH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="oFN-il-YVf"/>
+                            <constraint firstItem="fSw-fF-NaH" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="sNL-Qc-Aiq"/>
+                            <constraint firstItem="OLK-JL-wgp" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="vu9-DR-8yY"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="goBack" destination="bDz-k0-iMI" id="1o0-RM-XDI"/>
+                        <outlet property="goForward" destination="Hp5-cI-H9o" id="ift-Us-dz2"/>
+                        <outlet property="webView" destination="OLK-JL-wgp" id="CKc-C3-zAG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC4FF583215B2C2D000C653D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC4FF582215B2C2D000C653D /* AppDelegate.m */; };
+		EC4FF586215B2C2D000C653D /* LZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC4FF585215B2C2D000C653D /* LZViewController.m */; };
+		EC4FF589215B2C2D000C653D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC4FF587215B2C2D000C653D /* Main.storyboard */; };
+		EC4FF58B215B2C2E000C653D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC4FF58A215B2C2E000C653D /* Assets.xcassets */; };
+		EC4FF58E215B2C2E000C653D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC4FF58C215B2C2E000C653D /* LaunchScreen.storyboard */; };
+		EC4FF591215B2C2E000C653D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC4FF590215B2C2E000C653D /* main.m */; };
+		EC4FF5AC215BDB5F000C653D /* shopData.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC4FF5AB215BDB5E000C653D /* shopData.plist */; };
+		EC4FF5AF215BDE34000C653D /* LZShop.m in Sources */ = {isa = PBXBuildFile; fileRef = EC4FF5AE215BDE34000C653D /* LZShop.m */; };
+		ECE13E65215DC9B400C2299F /* LZShopViewXib.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE13E64215DC9B400C2299F /* LZShopViewXib.m */; };
+		ECE13E67215DC9C900C2299F /* LZShopViewXib.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECE13E66215DC9C900C2299F /* LZShopViewXib.xib */; };
+		ECE13EB1215E903F00C2299F /* LZShopviewBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE13EB0215E903F00C2299F /* LZShopviewBtn.m */; };
+		ECFF8545215BEB4800B896A5 /* LZShopView.m in Sources */ = {isa = PBXBuildFile; fileRef = ECFF8544215BEB4800B896A5 /* LZShopView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EC4FF57E215B2C2D000C653D /* 按钮综合练习.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "按钮综合练习.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC4FF581215B2C2D000C653D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC4FF582215B2C2D000C653D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC4FF584215B2C2D000C653D /* LZViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZViewController.h; sourceTree = "<group>"; };
+		EC4FF585215B2C2D000C653D /* LZViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZViewController.m; sourceTree = "<group>"; };
+		EC4FF588215B2C2D000C653D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC4FF58A215B2C2E000C653D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC4FF58D215B2C2E000C653D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC4FF58F215B2C2E000C653D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC4FF590215B2C2E000C653D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC4FF5AB215BDB5E000C653D /* shopData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = shopData.plist; sourceTree = "<group>"; };
+		EC4FF5AD215BDE34000C653D /* LZShop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZShop.h; sourceTree = "<group>"; };
+		EC4FF5AE215BDE34000C653D /* LZShop.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZShop.m; sourceTree = "<group>"; };
+		ECE13E63215DC9B400C2299F /* LZShopViewXib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZShopViewXib.h; sourceTree = "<group>"; };
+		ECE13E64215DC9B400C2299F /* LZShopViewXib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZShopViewXib.m; sourceTree = "<group>"; };
+		ECE13E66215DC9C900C2299F /* LZShopViewXib.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LZShopViewXib.xib; sourceTree = "<group>"; };
+		ECE13EAF215E903F00C2299F /* LZShopviewBtn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZShopviewBtn.h; sourceTree = "<group>"; };
+		ECE13EB0215E903F00C2299F /* LZShopviewBtn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZShopviewBtn.m; sourceTree = "<group>"; };
+		ECFF8543215BEB4800B896A5 /* LZShopView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZShopView.h; sourceTree = "<group>"; };
+		ECFF8544215BEB4800B896A5 /* LZShopView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZShopView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC4FF57B215B2C2D000C653D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC4FF575215B2C2D000C653D = {
+			isa = PBXGroup;
+			children = (
+				EC4FF580215B2C2D000C653D /* 按钮综合练习 */,
+				EC4FF57F215B2C2D000C653D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC4FF57F215B2C2D000C653D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC4FF57E215B2C2D000C653D /* 按钮综合练习.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC4FF580215B2C2D000C653D /* 按钮综合练习 */ = {
+			isa = PBXGroup;
+			children = (
+				EC4FF581215B2C2D000C653D /* AppDelegate.h */,
+				EC4FF582215B2C2D000C653D /* AppDelegate.m */,
+				EC4FF584215B2C2D000C653D /* LZViewController.h */,
+				EC4FF585215B2C2D000C653D /* LZViewController.m */,
+				ECE13E63215DC9B400C2299F /* LZShopViewXib.h */,
+				ECE13E64215DC9B400C2299F /* LZShopViewXib.m */,
+				ECE13E66215DC9C900C2299F /* LZShopViewXib.xib */,
+				ECFF8543215BEB4800B896A5 /* LZShopView.h */,
+				ECFF8544215BEB4800B896A5 /* LZShopView.m */,
+				EC4FF587215B2C2D000C653D /* Main.storyboard */,
+				EC4FF58A215B2C2E000C653D /* Assets.xcassets */,
+				EC4FF58C215B2C2E000C653D /* LaunchScreen.storyboard */,
+				EC4FF5AB215BDB5E000C653D /* shopData.plist */,
+				EC4FF58F215B2C2E000C653D /* Info.plist */,
+				EC4FF590215B2C2E000C653D /* main.m */,
+				EC4FF5AD215BDE34000C653D /* LZShop.h */,
+				EC4FF5AE215BDE34000C653D /* LZShop.m */,
+				ECE13EAF215E903F00C2299F /* LZShopviewBtn.h */,
+				ECE13EB0215E903F00C2299F /* LZShopviewBtn.m */,
+			);
+			path = "按钮综合练习";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC4FF57D215B2C2D000C653D /* 按钮综合练习 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC4FF594215B2C2E000C653D /* Build configuration list for PBXNativeTarget "按钮综合练习" */;
+			buildPhases = (
+				EC4FF57A215B2C2D000C653D /* Sources */,
+				EC4FF57B215B2C2D000C653D /* Frameworks */,
+				EC4FF57C215B2C2D000C653D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "按钮综合练习";
+			productName = "按钮综合练习";
+			productReference = EC4FF57E215B2C2D000C653D /* 按钮综合练习.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC4FF576215B2C2D000C653D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LZ;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = LZ;
+				TargetAttributes = {
+					EC4FF57D215B2C2D000C653D = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = EC4FF579215B2C2D000C653D /* Build configuration list for PBXProject "按钮综合练习" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC4FF575215B2C2D000C653D;
+			productRefGroup = EC4FF57F215B2C2D000C653D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC4FF57D215B2C2D000C653D /* 按钮综合练习 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC4FF57C215B2C2D000C653D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECE13E67215DC9C900C2299F /* LZShopViewXib.xib in Resources */,
+				EC4FF5AC215BDB5F000C653D /* shopData.plist in Resources */,
+				EC4FF58E215B2C2E000C653D /* LaunchScreen.storyboard in Resources */,
+				EC4FF58B215B2C2E000C653D /* Assets.xcassets in Resources */,
+				EC4FF589215B2C2D000C653D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC4FF57A215B2C2D000C653D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECFF8545215BEB4800B896A5 /* LZShopView.m in Sources */,
+				ECE13EB1215E903F00C2299F /* LZShopviewBtn.m in Sources */,
+				EC4FF586215B2C2D000C653D /* LZViewController.m in Sources */,
+				ECE13E65215DC9B400C2299F /* LZShopViewXib.m in Sources */,
+				EC4FF591215B2C2E000C653D /* main.m in Sources */,
+				EC4FF583215B2C2D000C653D /* AppDelegate.m in Sources */,
+				EC4FF5AF215BDE34000C653D /* LZShop.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EC4FF587215B2C2D000C653D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC4FF588215B2C2D000C653D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC4FF58C215B2C2E000C653D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC4FF58D215B2C2E000C653D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC4FF592215B2C2E000C653D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EC4FF593215B2C2E000C653D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC4FF595215B2C2E000C653D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PXKRS4XWUT;
+				INFOPLIST_FILE = "按钮综合练习/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.wdq.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC4FF596215B2C2E000C653D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PXKRS4XWUT;
+				INFOPLIST_FILE = "按钮综合练习/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.wdq.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC4FF579215B2C2D000C653D /* Build configuration list for PBXProject "按钮综合练习" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC4FF592215B2C2E000C653D /* Debug */,
+				EC4FF593215B2C2E000C653D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC4FF594215B2C2E000C653D /* Build configuration list for PBXNativeTarget "按钮综合练习" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC4FF595215B2C2E000C653D /* Debug */,
+				EC4FF596215B2C2E000C653D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC4FF576215B2C2D000C653D /* Project object */;
+}

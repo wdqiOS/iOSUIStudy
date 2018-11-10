@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" highlighted="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xMq-Iw-nDI">
+                                <rect key="frame" x="119" y="123" width="137" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="DVT-Ik-8MB"/>
+                                </constraints>
+                                <size key="titleShadowOffset" width="3" height="3"/>
+                                <state key="normal" title="普通按钮">
+                                    <color key="titleColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <state key="highlighted" title="高亮按钮">
+                                    <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UVX-gk-YyY">
+                                <rect key="frame" x="164.5" y="58" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="detailDisclosure" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="did-MI-gTW">
+                                <rect key="frame" x="176.5" y="179" width="22" height="22"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HT5-ch-XOQ">
+                                <rect key="frame" x="176.5" y="221" width="22" height="22"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="did-MI-gTW" firstAttribute="top" secondItem="xMq-Iw-nDI" secondAttribute="bottom" constant="26" id="3nM-gx-PvZ"/>
+                            <constraint firstItem="HT5-ch-XOQ" firstAttribute="top" secondItem="did-MI-gTW" secondAttribute="bottom" constant="20" id="5hI-ce-7PH"/>
+                            <constraint firstItem="xMq-Iw-nDI" firstAttribute="top" secondItem="UVX-gk-YyY" secondAttribute="bottom" constant="35" id="6fh-DU-rly"/>
+                            <constraint firstItem="xMq-Iw-nDI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ELP-2M-YCO"/>
+                            <constraint firstItem="xMq-Iw-nDI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="119" id="NO2-V5-736"/>
+                            <constraint firstItem="xMq-Iw-nDI" firstAttribute="centerX" secondItem="did-MI-gTW" secondAttribute="centerX" id="SiX-P8-z3E"/>
+                            <constraint firstItem="xMq-Iw-nDI" firstAttribute="centerX" secondItem="UVX-gk-YyY" secondAttribute="centerX" id="U2e-lr-HEO"/>
+                            <constraint firstItem="xMq-Iw-nDI" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="123" id="hsm-iA-aWI"/>
+                            <constraint firstItem="HT5-ch-XOQ" firstAttribute="leading" secondItem="did-MI-gTW" secondAttribute="leading" id="jpW-ee-zpP"/>
+                            <constraint firstItem="xMq-Iw-nDI" firstAttribute="centerX" secondItem="HT5-ch-XOQ" secondAttribute="centerX" id="oK4-ej-Rn9"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="128.80000000000001" y="132.68365817091455"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XoQ-T1-pez">
+                                <rect key="frame" x="0.0" y="20" width="375" height="40"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="leo-RU-uyr">
+                                        <rect key="frame" x="0.0" y="5" width="125" height="30"/>
+                                        <state key="normal" title="添加"/>
+                                        <connections>
+                                            <action selector="add" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZXo-Vh-RzJ"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Itm-6N-JXY">
+                                        <rect key="frame" x="250" y="5" width="125" height="30"/>
+                                        <state key="normal" title="删除"/>
+                                        <connections>
+                                            <action selector="delete" destination="BYZ-38-t0r" eventType="touchUpInside" id="ATM-7Y-uUT"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wQA-gH-4J2">
+                                        <rect key="frame" x="125" y="5" width="125" height="30"/>
+                                        <state key="normal" title="更新"/>
+                                        <connections>
+                                            <action selector="update" destination="BYZ-38-t0r" eventType="touchUpInside" id="dLY-3w-te5"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="Itm-6N-JXY" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="wQA-gH-4J2" secondAttribute="trailing" id="2MK-PF-2ao"/>
+                                    <constraint firstItem="wQA-gH-4J2" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="leo-RU-uyr" secondAttribute="trailing" id="2c7-xE-ibY"/>
+                                    <constraint firstItem="wQA-gH-4J2" firstAttribute="centerY" secondItem="XoQ-T1-pez" secondAttribute="centerY" id="EiW-fi-Oxn"/>
+                                    <constraint firstItem="leo-RU-uyr" firstAttribute="centerY" secondItem="XoQ-T1-pez" secondAttribute="centerY" id="QNb-w8-6Fn"/>
+                                    <constraint firstItem="wQA-gH-4J2" firstAttribute="centerX" secondItem="XoQ-T1-pez" secondAttribute="centerX" id="RBI-xx-I24"/>
+                                    <constraint firstAttribute="height" constant="40" id="Sl5-q9-QsD"/>
+                                    <constraint firstItem="leo-RU-uyr" firstAttribute="leading" secondItem="XoQ-T1-pez" secondAttribute="leading" id="X7q-0R-GVQ"/>
+                                    <constraint firstItem="leo-RU-uyr" firstAttribute="width" secondItem="XoQ-T1-pez" secondAttribute="width" multiplier="1:3" id="aEJ-Yn-RjT"/>
+                                    <constraint firstAttribute="trailing" secondItem="Itm-6N-JXY" secondAttribute="trailing" id="h29-vh-1lW"/>
+                                    <constraint firstItem="wQA-gH-4J2" firstAttribute="width" secondItem="leo-RU-uyr" secondAttribute="width" id="ieb-R7-mbS"/>
+                                    <constraint firstItem="Itm-6N-JXY" firstAttribute="centerY" secondItem="XoQ-T1-pez" secondAttribute="centerY" id="jii-ar-KNX"/>
+                                    <constraint firstItem="Itm-6N-JXY" firstAttribute="width" secondItem="wQA-gH-4J2" secondAttribute="width" id="nmx-KU-tr3"/>
+                                </constraints>
+                            </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="xUj-JP-sLr">
+                                <rect key="frame" x="0.0" y="60" width="375" height="607"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="x3a-mr-syQ"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="hja-Om-R1a"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="xUj-JP-sLr" firstAttribute="top" secondItem="XoQ-T1-pez" secondAttribute="bottom" id="5OO-Nb-efp"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xUj-JP-sLr" secondAttribute="trailing" id="A4i-Fc-ZO8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="XoQ-T1-pez" secondAttribute="trailing" id="KjF-V2-Y9G"/>
+                            <constraint firstItem="XoQ-T1-pez" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="UsD-o9-PVh"/>
+                            <constraint firstItem="XoQ-T1-pez" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="dxx-iA-wCr"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="xUj-JP-sLr" secondAttribute="bottom" id="eQV-0V-WcS"/>
+                            <constraint firstItem="xUj-JP-sLr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="sTZ-A9-SU9"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="deleteBtn" destination="Itm-6N-JXY" id="YTB-Bg-wfX"/>
+                        <outlet property="tableview" destination="xUj-JP-sLr" id="ouY-wm-Vvp"/>
+                        <outlet property="updateBtn" destination="wQA-gH-4J2" id="2d7-OF-Rge"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

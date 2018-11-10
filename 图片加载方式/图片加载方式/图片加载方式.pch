@@ -1,0 +1,32 @@
+//
+//  图片加载方式.pch
+//  图片加载方式
+//
+//  Created by 汪大强 on 2018/9/24.
+//  Copyright © 2018年 LZ. All rights reserved.
+//
+
+#ifndef _______pch
+#define _______pch
+
+
+//宏输出函数
+#ifdef DEBUG
+
+#define LZLog(fmt, ...) NSLog((@"\n %s \n" "[lineNum:%d] \n" fmt) , __FUNCTION__, __LINE__, ##__VA_ARGS__); //带函数名和行数
+
+//#define SL_Log(fmt, ...) NSLog((@"===[lineNum:%d]" fmt), __LINE__, ##__VA_ARGS__);  //带行数
+//
+//#define SC_Log(fmt, ...) NSLog((fmt), ##__VA_ARGS__); //不带函数名和行数
+
+#else
+
+#define LZLog(fmt, ...)
+
+//#define SL_Log(fmt, ...)
+//
+//#define SC_Log(fmt, ...)
+
+#endif
+
+#endif /* _______pch */

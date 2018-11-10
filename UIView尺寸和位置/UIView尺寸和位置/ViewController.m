@@ -9,10 +9,14 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+
 @property(nonatomic, weak) UILabel *label;
 @end
 
+
 @implementation ViewController
+
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -33,11 +37,14 @@
     // bouns（以自己的左上角为坐标原点，所以bounds的x、y一般为0）
     
     
+    
 }
+
 - (IBAction)bounds {
     // 改变尺寸 iOS9以后，中心点不变，向四周延伸
     self.label.bounds = CGRectMake(0, 0, 300, 100);
 }
+
 
 - (IBAction)center {
     // 改变位置 以父控件左上角为坐标原点
