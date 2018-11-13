@@ -6,6 +6,20 @@
 //  Copyright © 2018 LZ. All rights reserved.
 //
 
+/**
+
+ 如果没有设置启动页面，默认它的屏幕的大小是4s大小
+ LaunchScreen底层实现：把LaunchScreen,storyboard当中内容，生成一张图片
+
+ PCH作用：
+ 1、存入一些公用的宏；
+ 2、导入公用的头文件；
+ 3、自定义log；
+ 
+ 原理：工程在编译过程中，把PCH文件当中所有内容导入到工程当中所有文件当中
+ 
+ */
+
 #import "AppDelegate.h"
 
 @interface AppDelegate ()
@@ -17,6 +31,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    LZLOG(@"%@", NSStringFromCGSize([UIScreen mainScreen].bounds.size));
     return YES;
 }
 

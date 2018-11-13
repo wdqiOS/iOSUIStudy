@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<string>肉夹馍</string>
+		<string>砂仁狗肉</string>
+		<string>胡辣汤</string>
+		<string>水煎包</string>
+		<string>羊肉汤</string>
+		<string>手抓饼</string>
+		<string>牛肉面</string>
+		<string>皮蛋瘦肉粥</string>
+		<string>小米粥</string>
+		<string>馒头</string>
+		<string>咸菜</string>
+	</array>
+	<array>
+		<string>果蔬汁</string>
+		<string>矿泉水</string>
+		<string>苹果汁</string>
+		<string>梨汁</string>
+		<string>草莓汁</string>
+		<string>水蜜桃</string>
+		<string>六个核桃</string>
+		<string>脑白金</string>
+	</array>
+	<array>
+		<string>榴莲</string>
+		<string>苹果</string>
+		<string>香蕉</string>
+		<string>橘子</string>
+		<string>桃子</string>
+		<string>西瓜</string>
+		<string>草莓</string>
+		<string>樱桃</string>
+	</array>
+</array>
+</plist>

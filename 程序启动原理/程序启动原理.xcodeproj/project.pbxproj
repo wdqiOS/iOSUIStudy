@@ -13,6 +13,8 @@
 		EC0BCC7C21974280007B1AF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC0BCC7B21974280007B1AF1 /* Assets.xcassets */; };
 		EC0BCC7F21974280007B1AF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC0BCC7D21974280007B1AF1 /* LaunchScreen.storyboard */; };
 		EC0BCC8221974280007B1AF1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0BCC8121974280007B1AF1 /* main.m */; };
+		EC0BCC8E219889C8007B1AF1 /* UIView+LZViewFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0BCC8D219889C8007B1AF1 /* UIView+LZViewFrame.m */; };
+		EC0BCC9121988D4C007B1AF1 /* LZTest.c in Sources */ = {isa = PBXBuildFile; fileRef = EC0BCC9021988D4C007B1AF1 /* LZTest.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,11 @@
 		EC0BCC7E21974280007B1AF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC0BCC8021974280007B1AF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC0BCC8121974280007B1AF1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC0BCC8B2198881C007B1AF1 /* 程序启动原理.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "程序启动原理.pch"; sourceTree = "<group>"; };
+		EC0BCC8C219889C8007B1AF1 /* UIView+LZViewFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+LZViewFrame.h"; sourceTree = "<group>"; };
+		EC0BCC8D219889C8007B1AF1 /* UIView+LZViewFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+LZViewFrame.m"; sourceTree = "<group>"; };
+		EC0BCC8F21988D4C007B1AF1 /* LZTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZTest.h; sourceTree = "<group>"; };
+		EC0BCC9021988D4C007B1AF1 /* LZTest.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LZTest.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +73,12 @@
 				EC0BCC7B21974280007B1AF1 /* Assets.xcassets */,
 				EC0BCC7D21974280007B1AF1 /* LaunchScreen.storyboard */,
 				EC0BCC8021974280007B1AF1 /* Info.plist */,
+				EC0BCC8B2198881C007B1AF1 /* 程序启动原理.pch */,
 				EC0BCC8121974280007B1AF1 /* main.m */,
+				EC0BCC8C219889C8007B1AF1 /* UIView+LZViewFrame.h */,
+				EC0BCC8D219889C8007B1AF1 /* UIView+LZViewFrame.m */,
+				EC0BCC8F21988D4C007B1AF1 /* LZTest.h */,
+				EC0BCC9021988D4C007B1AF1 /* LZTest.c */,
 			);
 			path = "程序启动原理";
 			sourceTree = "<group>";
@@ -97,6 +109,7 @@
 		EC0BCC672197427F007B1AF1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = LZ;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = LZ;
 				TargetAttributes = {
@@ -144,6 +157,8 @@
 				EC0BCC772197427F007B1AF1 /* ViewController.m in Sources */,
 				EC0BCC8221974280007B1AF1 /* main.m in Sources */,
 				EC0BCC742197427F007B1AF1 /* AppDelegate.m in Sources */,
+				EC0BCC8E219889C8007B1AF1 /* UIView+LZViewFrame.m in Sources */,
+				EC0BCC9121988D4C007B1AF1 /* LZTest.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +302,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PXKRS4XWUT;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "程序启动原理/程序启动原理.pch";
 				INFOPLIST_FILE = "程序启动原理/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -304,6 +321,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PXKRS4XWUT;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "程序启动原理/程序启动原理.pch";
 				INFOPLIST_FILE = "程序启动原理/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
