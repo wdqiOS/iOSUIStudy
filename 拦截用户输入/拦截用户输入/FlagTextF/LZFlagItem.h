@@ -6,7 +6,7 @@
 //  Copyright © 2018 LZ. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -15,7 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 /** 名称 */
 @property(nonatomic, copy) NSString *name;
 /** 图片名称 */
-@property(nonatomic, copy) NSString *icon;
+@property(nonatomic, strong) UIImage *icon;
 
 +(instancetype)itemWithDict:(NSDictionary *)dict;
 

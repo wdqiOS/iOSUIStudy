@@ -34,7 +34,7 @@
 -(void)setItem:(LZFlagItem *)item{
     _item = item;
     self.nameL.text = item.name;
-    self.flagImageView.image = [UIImage imageNamed:item.icon];
+    self.flagImageView.image = item.icon;
 }
 
 @end

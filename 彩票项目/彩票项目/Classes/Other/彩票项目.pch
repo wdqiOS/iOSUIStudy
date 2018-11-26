@@ -1,0 +1,21 @@
+//
+//  彩票项目.pch
+//  彩票项目
+//
+//  Created by 汪大强 on 2018/11/23.
+//  Copyright © 2018 LZ. All rights reserved.
+//
+
+// pch 为什么不能用？
+// 在Xcode5以后干掉了，如果想用，需要手动配置
+#ifndef _____pch
+#define _____pch
+
+
+#ifdef  __OBJC__ // 只有oc文件才导入
+#import "UIView+Frame.h"
+#import "UIImage+LZ.h"
+
+#endif
+
+#endif /* _____pch */

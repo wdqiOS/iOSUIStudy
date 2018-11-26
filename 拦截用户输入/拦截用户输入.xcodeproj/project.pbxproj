@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ECA4CFFC219AB742006518B5 /* LZDateTextF.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA4CFFB219AB742006518B5 /* LZDateTextF.m */; };
+		ECA4D025219ABF67006518B5 /* LZProvinceTextF.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA4D024219ABF67006518B5 /* LZProvinceTextF.m */; };
+		ECA4D027219AC0BF006518B5 /* ProvincesAndCities.plist in Resources */ = {isa = PBXBuildFile; fileRef = ECA4D026219AC0BF006518B5 /* ProvincesAndCities.plist */; };
+		ECA4D02D219AC0EE006518B5 /* LZProvinceItem.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA4D02C219AC0EE006518B5 /* LZProvinceItem.m */; };
+		ECA4D030219AE339006518B5 /* UITextField+LZTextF.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA4D02F219AE339006518B5 /* UITextField+LZTextF.m */; };
 		ECA80D942199EACD003F3F88 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA80D932199EACD003F3F88 /* AppDelegate.m */; };
 		ECA80D972199EACD003F3F88 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA80D962199EACD003F3F88 /* ViewController.m */; };
 		ECA80D9A2199EACD003F3F88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECA80D982199EACD003F3F88 /* Main.storyboard */; };
@@ -28,6 +33,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ECA4CFFA219AB742006518B5 /* LZDateTextF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZDateTextF.h; sourceTree = "<group>"; };
+		ECA4CFFB219AB742006518B5 /* LZDateTextF.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZDateTextF.m; sourceTree = "<group>"; };
+		ECA4D023219ABF67006518B5 /* LZProvinceTextF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZProvinceTextF.h; sourceTree = "<group>"; };
+		ECA4D024219ABF67006518B5 /* LZProvinceTextF.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZProvinceTextF.m; sourceTree = "<group>"; };
+		ECA4D026219AC0BF006518B5 /* ProvincesAndCities.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ProvincesAndCities.plist; sourceTree = "<group>"; };
+		ECA4D02B219AC0EE006518B5 /* LZProvinceItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZProvinceItem.h; sourceTree = "<group>"; };
+		ECA4D02C219AC0EE006518B5 /* LZProvinceItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZProvinceItem.m; sourceTree = "<group>"; };
+		ECA4D02E219AE339006518B5 /* UITextField+LZTextF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextField+LZTextF.h"; sourceTree = "<group>"; };
+		ECA4D02F219AE339006518B5 /* UITextField+LZTextF.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextField+LZTextF.m"; sourceTree = "<group>"; };
 		ECA80D8F2199EACD003F3F88 /* 拦截用户输入.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "拦截用户输入.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECA80D922199EACD003F3F88 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ECA80D932199EACD003F3F88 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -66,6 +80,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ECA4CFF9219AB722006518B5 /* DateTextF */ = {
+			isa = PBXGroup;
+			children = (
+				ECA4CFFA219AB742006518B5 /* LZDateTextF.h */,
+				ECA4CFFB219AB742006518B5 /* LZDateTextF.m */,
+			);
+			path = DateTextF;
+			sourceTree = "<group>";
+		};
+		ECA4D022219ABF4D006518B5 /* ProvinceTextF */ = {
+			isa = PBXGroup;
+			children = (
+				ECA4D026219AC0BF006518B5 /* ProvincesAndCities.plist */,
+				ECA4D023219ABF67006518B5 /* LZProvinceTextF.h */,
+				ECA4D024219ABF67006518B5 /* LZProvinceTextF.m */,
+				ECA4D02B219AC0EE006518B5 /* LZProvinceItem.h */,
+				ECA4D02C219AC0EE006518B5 /* LZProvinceItem.m */,
+			);
+			path = ProvinceTextF;
+			sourceTree = "<group>";
+		};
 		ECA80D862199EACD003F3F88 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +120,8 @@
 		ECA80D912199EACD003F3F88 /* 拦截用户输入 */ = {
 			isa = PBXGroup;
 			children = (
+				ECA4D022219ABF4D006518B5 /* ProvinceTextF */,
+				ECA4CFF9219AB722006518B5 /* DateTextF */,
 				ECA80DA8219A7513003F3F88 /* FlagTextF */,
 				ECA80D922199EACD003F3F88 /* AppDelegate.h */,
 				ECA80D932199EACD003F3F88 /* AppDelegate.m */,
@@ -111,6 +148,8 @@
 				ECA80DC0219A7A1D003F3F88 /* LZFlagView.h */,
 				ECA80DC1219A7A1D003F3F88 /* LZFlagView.m */,
 				ECA80DC3219A7A29003F3F88 /* LZFlagView.xib */,
+				ECA4D02E219AE339006518B5 /* UITextField+LZTextF.h */,
+				ECA4D02F219AE339006518B5 /* UITextField+LZTextF.m */,
 			);
 			path = FlagTextF;
 			sourceTree = "<group>";
@@ -197,6 +236,7 @@
 				ECA80DBD219A7866003F3F88 /* 3.jpeg in Resources */,
 				ECA80D9A2199EACD003F3F88 /* Main.storyboard in Resources */,
 				ECA80DB7219A7866003F3F88 /* 1.jpeg in Resources */,
+				ECA4D027219AC0BF006518B5 /* ProvincesAndCities.plist in Resources */,
 				ECA80DBB219A7866003F3F88 /* 5.jpeg in Resources */,
 				ECA80DBC219A7866003F3F88 /* 2.jpeg in Resources */,
 			);
@@ -210,9 +250,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				ECA80D972199EACD003F3F88 /* ViewController.m in Sources */,
+				ECA4D030219AE339006518B5 /* UITextField+LZTextF.m in Sources */,
+				ECA4CFFC219AB742006518B5 /* LZDateTextF.m in Sources */,
 				ECA80DAE219A774B003F3F88 /* LZFlagItem.m in Sources */,
+				ECA4D025219ABF67006518B5 /* LZProvinceTextF.m in Sources */,
 				ECA80DA22199EACD003F3F88 /* main.m in Sources */,
 				ECA80D942199EACD003F3F88 /* AppDelegate.m in Sources */,
+				ECA4D02D219AC0EE006518B5 /* LZProvinceItem.m in Sources */,
 				ECA80DC2219A7A1D003F3F88 /* LZFlagView.m in Sources */,
 				ECA80DAB219A7542003F3F88 /* LZFlagTextF.m in Sources */,
 			);

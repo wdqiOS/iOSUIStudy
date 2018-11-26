@@ -15,6 +15,9 @@
 /** 加载的数据 */
 @property(nonatomic, strong) NSArray *dataArray;
 
+/** pickerView */
+@property(nonatomic, weak) UIPickerView *pick;
+
 @end
 
 @implementation LZFlagTextF
@@ -33,7 +36,7 @@
     }
     return _dataArray;
 }
-
+// 只要从xib或者storyboard加载就会调用这个方法，只会调用一次
 -(void)awakeFromNib{
     [super awakeFromNib];
     // 初始化文本框
@@ -55,9 +58,13 @@
     UIPickerView *pick = [[UIPickerView alloc] init];
     pick.delegate = self;
     pick.dataSource = self;
+    self.pick = pick;
     
     // 修改文本框弹出键盘类型
     self.inputView = pick;
+    
+    // 初始化文本框内容
+//    [self initWithText];
 }
 
 #pragma mark --------------------
@@ -85,6 +92,15 @@
     return 80;
 }
 
+-(void)pickerView:(UIPickerView *)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component{
+    NSLog(@"country ==== %@", [self.dataArray[row] name]);
+    self.text = [self.dataArray[row] name];
+}
 
+#pragma mark --------------------
+#pragma mark - 初始化文本框文字（选中第0行）
+-(void)initWithText{
+    [self pickerView:self.pick didSelectRow:0 inComponent:0];
+}
 
 @end

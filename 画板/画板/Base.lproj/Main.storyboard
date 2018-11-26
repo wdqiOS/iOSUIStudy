@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GFx-Go-6Wn">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="NLD-Yw-a2x"/>
+                                </constraints>
+                                <items>
+                                    <barButtonItem title="清屏" id="ip6-UJ-ocH">
+                                        <connections>
+                                            <action selector="clear:" destination="BYZ-38-t0r" id="ek2-Ej-eNs"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="撤销" id="Qpd-Cg-6YM">
+                                        <connections>
+                                            <action selector="undo:" destination="BYZ-38-t0r" id="m3f-B2-HsB"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="橡皮擦" id="eA0-BC-d71">
+                                        <connections>
+                                            <action selector="earase:" destination="BYZ-38-t0r" id="5aZ-Nz-Wia"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="照片" id="FyH-ua-06X">
+                                        <connections>
+                                            <action selector="photo:" destination="BYZ-38-t0r" id="kEQ-Rg-dp1"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="pim-e7-T3u"/>
+                                    <barButtonItem title="保存" id="zFJ-pT-ggA">
+                                        <connections>
+                                            <action selector="save:" destination="BYZ-38-t0r" id="kmS-eC-W0f"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EiW-g0-A6X">
+                                <rect key="frame" x="0.0" y="557" width="375" height="110"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="QLm-gX-grC">
+                                        <rect key="frame" x="20" y="55" width="335" height="35"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eyu-Md-WEm">
+                                                <rect key="frame" x="0.0" y="0.0" width="98.5" height="35"/>
+                                                <color key="backgroundColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <connections>
+                                                    <action selector="setLineColor:" destination="BYZ-38-t0r" eventType="touchUpInside" id="I4G-bJ-ibb"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DjJ-jj-D3f">
+                                                <rect key="frame" x="118.5" y="0.0" width="98" height="35"/>
+                                                <color key="backgroundColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <connections>
+                                                    <action selector="setLineColor:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fVN-p2-Ysz"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cg5-fQ-ZFO">
+                                                <rect key="frame" x="236.5" y="0.0" width="98.5" height="35"/>
+                                                <color key="backgroundColor" red="0.01512023341" green="0.19928276540000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <connections>
+                                                    <action selector="setLineColor:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SaW-pn-6h0"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="35" id="ryA-6D-HzB"/>
+                                        </constraints>
+                                    </stackView>
+                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="1" maxValue="50" translatesAutoresizingMaskIntoConstraints="NO" id="tvT-sh-XTI">
+                                        <rect key="frame" x="18" y="5" width="339" height="31"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="tWv-1v-t5e"/>
+                                        </constraints>
+                                        <connections>
+                                            <action selector="setLLineWidth:" destination="BYZ-38-t0r" eventType="valueChanged" id="Xoi-qA-iUZ"/>
+                                        </connections>
+                                    </slider>
+                                </subviews>
+                                <color key="backgroundColor" red="0.85162156820297241" green="0.5939948558807373" blue="0.86900168657302856" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="tvT-sh-XTI" firstAttribute="leading" secondItem="EiW-g0-A6X" secondAttribute="leading" constant="20" id="5eL-JN-9wn"/>
+                                    <constraint firstAttribute="bottom" secondItem="QLm-gX-grC" secondAttribute="bottom" constant="20" id="HKj-Nu-3Ui"/>
+                                    <constraint firstItem="QLm-gX-grC" firstAttribute="leading" secondItem="EiW-g0-A6X" secondAttribute="leading" constant="20" id="bU9-j6-WNw"/>
+                                    <constraint firstAttribute="height" constant="110" id="cMY-Jl-YBL"/>
+                                    <constraint firstAttribute="trailing" secondItem="QLm-gX-grC" secondAttribute="trailing" constant="20" id="hMF-vo-yHL"/>
+                                    <constraint firstItem="QLm-gX-grC" firstAttribute="top" secondItem="tvT-sh-XTI" secondAttribute="bottom" constant="20" id="jzI-RD-A2E"/>
+                                    <constraint firstAttribute="trailing" secondItem="tvT-sh-XTI" secondAttribute="trailing" constant="20" id="zfB-sC-bBy"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rte-13-sZM" customClass="LZDrawView">
+                                <rect key="frame" x="0.0" y="64" width="375" height="493"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Rte-13-sZM" firstAttribute="top" secondItem="GFx-Go-6Wn" secondAttribute="bottom" id="4ga-t2-NVA"/>
+                            <constraint firstItem="Rte-13-sZM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="E2i-RA-OSr"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="EiW-g0-A6X" secondAttribute="trailing" id="NRt-T6-DaX"/>
+                            <constraint firstItem="EiW-g0-A6X" firstAttribute="top" secondItem="Rte-13-sZM" secondAttribute="bottom" id="UtI-Ko-5ZJ"/>
+                            <constraint firstItem="GFx-Go-6Wn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Vur-3E-TLm"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Rte-13-sZM" secondAttribute="trailing" id="cIZ-4b-3Ia"/>
+                            <constraint firstItem="GFx-Go-6Wn" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="hFh-cp-UAh"/>
+                            <constraint firstItem="GFx-Go-6Wn" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="smb-ud-lbz"/>
+                            <constraint firstItem="EiW-g0-A6X" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="utj-XU-ZWW"/>
+                            <constraint firstItem="EiW-g0-A6X" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="zLu-O0-bGd"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="drawView" destination="Rte-13-sZM" id="CAA-iY-qCY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="161" y="23"/>
+        </scene>
+    </scenes>
+</document>

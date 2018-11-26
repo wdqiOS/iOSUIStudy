@@ -1,0 +1,647 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC1DC84121A80165002C6DDF /* LZCover.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1DC84021A80165002C6DDF /* LZCover.m */; };
+		EC1DC84321A8043A002C6DDF /* LZPopMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC1DC84221A8043A002C6DDF /* LZPopMenu.xib */; };
+		EC1DC84621A806B1002C6DDF /* LZPopMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1DC84521A806B1002C6DDF /* LZPopMenu.m */; };
+		EC1DC86B21A8518F002C6DDF /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1DC86A21A8518F002C6DDF /* UIView+Frame.m */; };
+		EC1DC86E21A85C78002C6DDF /* LZMyLotteryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC1DC86D21A85C78002C6DDF /* LZMyLotteryViewController.xib */; };
+		EC4B67C921A7FDC1006C32FD /* UIImage+LZ.m in Sources */ = {isa = PBXBuildFile; fileRef = EC4B67C821A7FDC1006C32FD /* UIImage+LZ.m */; };
+		EC9CDEB321AB0D6A0057280E /* LZArenaNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9CDEB221AB0D6A0057280E /* LZArenaNavViewController.m */; };
+		ECB4F73521A7CBC20007B2B5 /* LZTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB4F73421A7CBC20007B2B5 /* LZTabBar.m */; };
+		ECB4F73821A7D4F00007B2B5 /* LZTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB4F73721A7D4F00007B2B5 /* LZTabBarButton.m */; };
+		ECB9D95F21A7B2D60065D1E1 /* LZDiscoverTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB9D93921A7B2D60065D1E1 /* LZDiscoverTableViewController.m */; };
+		ECB9D96021A7B2D60065D1E1 /* LZMyLotteryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB9D93F21A7B2D60065D1E1 /* LZMyLotteryViewController.m */; };
+		ECB9D96121A7B2D60065D1E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB9D94521A7B2D60065D1E1 /* main.m */; };
+		ECB9D96221A7B2D60065D1E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB9D94621A7B2D60065D1E1 /* AppDelegate.m */; };
+		ECB9D96321A7B2D60065D1E1 /* LZHistoryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB9D94921A7B2D60065D1E1 /* LZHistoryTableViewController.m */; };
+		ECB9D96421A7B2D60065D1E1 /* LZArenaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB9D94F21A7B2D60065D1E1 /* LZArenaViewController.m */; };
+		ECB9D96521A7B2D60065D1E1 /* LZTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB9D95621A7B2D60065D1E1 /* LZTabBarController.m */; };
+		ECB9D96621A7B2D60065D1E1 /* LZHallTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB9D95B21A7B2D60065D1E1 /* LZHallTableViewController.m */; };
+		ECC6036821A7E0A400242A06 /* LZNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC6036721A7E0A400242A06 /* LZNavigationViewController.m */; };
+		ECEA9AF921A70CD90072C216 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECEA9AF821A70CD90072C216 /* Assets.xcassets */; };
+		ECEA9AFC21A70CD90072C216 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECEA9AFA21A70CD90072C216 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EC1DC83F21A80165002C6DDF /* LZCover.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZCover.h; sourceTree = "<group>"; };
+		EC1DC84021A80165002C6DDF /* LZCover.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZCover.m; sourceTree = "<group>"; };
+		EC1DC84221A8043A002C6DDF /* LZPopMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LZPopMenu.xib; sourceTree = "<group>"; };
+		EC1DC84421A806B1002C6DDF /* LZPopMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZPopMenu.h; sourceTree = "<group>"; };
+		EC1DC84521A806B1002C6DDF /* LZPopMenu.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZPopMenu.m; sourceTree = "<group>"; };
+		EC1DC86921A8518F002C6DDF /* UIView+Frame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		EC1DC86A21A8518F002C6DDF /* UIView+Frame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		EC1DC86C21A855C4002C6DDF /* 彩票项目.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "彩票项目.pch"; sourceTree = "<group>"; };
+		EC1DC86D21A85C78002C6DDF /* LZMyLotteryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LZMyLotteryViewController.xib; sourceTree = "<group>"; };
+		EC4B67C721A7FDC1006C32FD /* UIImage+LZ.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+LZ.h"; sourceTree = "<group>"; };
+		EC4B67C821A7FDC1006C32FD /* UIImage+LZ.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LZ.m"; sourceTree = "<group>"; };
+		EC9CDEB121AB0D6A0057280E /* LZArenaNavViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZArenaNavViewController.h; sourceTree = "<group>"; };
+		EC9CDEB221AB0D6A0057280E /* LZArenaNavViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZArenaNavViewController.m; sourceTree = "<group>"; };
+		ECB4F73321A7CBC20007B2B5 /* LZTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZTabBar.h; sourceTree = "<group>"; };
+		ECB4F73421A7CBC20007B2B5 /* LZTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZTabBar.m; sourceTree = "<group>"; };
+		ECB4F73621A7D4F00007B2B5 /* LZTabBarButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZTabBarButton.h; sourceTree = "<group>"; };
+		ECB4F73721A7D4F00007B2B5 /* LZTabBarButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZTabBarButton.m; sourceTree = "<group>"; };
+		ECB9D93921A7B2D60065D1E1 /* LZDiscoverTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZDiscoverTableViewController.m; sourceTree = "<group>"; };
+		ECB9D93A21A7B2D60065D1E1 /* LZDiscoverTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZDiscoverTableViewController.h; sourceTree = "<group>"; };
+		ECB9D93F21A7B2D60065D1E1 /* LZMyLotteryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZMyLotteryViewController.m; sourceTree = "<group>"; };
+		ECB9D94021A7B2D60065D1E1 /* LZMyLotteryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZMyLotteryViewController.h; sourceTree = "<group>"; };
+		ECB9D94421A7B2D60065D1E1 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ECB9D94521A7B2D60065D1E1 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECB9D94621A7B2D60065D1E1 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ECB9D94921A7B2D60065D1E1 /* LZHistoryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZHistoryTableViewController.m; sourceTree = "<group>"; };
+		ECB9D94A21A7B2D60065D1E1 /* LZHistoryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZHistoryTableViewController.h; sourceTree = "<group>"; };
+		ECB9D94F21A7B2D60065D1E1 /* LZArenaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZArenaViewController.m; sourceTree = "<group>"; };
+		ECB9D95021A7B2D60065D1E1 /* LZArenaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZArenaViewController.h; sourceTree = "<group>"; };
+		ECB9D95521A7B2D60065D1E1 /* LZTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZTabBarController.h; sourceTree = "<group>"; };
+		ECB9D95621A7B2D60065D1E1 /* LZTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZTabBarController.m; sourceTree = "<group>"; };
+		ECB9D95B21A7B2D60065D1E1 /* LZHallTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZHallTableViewController.m; sourceTree = "<group>"; };
+		ECB9D95C21A7B2D60065D1E1 /* LZHallTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZHallTableViewController.h; sourceTree = "<group>"; };
+		ECC6036621A7E0A400242A06 /* LZNavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZNavigationViewController.h; sourceTree = "<group>"; };
+		ECC6036721A7E0A400242A06 /* LZNavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZNavigationViewController.m; sourceTree = "<group>"; };
+		ECEA9AEC21A70CD80072C216 /* 彩票项目.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "彩票项目.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECEA9AF821A70CD90072C216 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECEA9AFB21A70CD90072C216 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECEA9AFD21A70CD90072C216 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECEA9AE921A70CD80072C216 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC4B67C521A7FDB2006C32FD /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		EC4B67C621A7FDB2006C32FD /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				EC4B67C721A7FDC1006C32FD /* UIImage+LZ.h */,
+				EC4B67C821A7FDC1006C32FD /* UIImage+LZ.m */,
+				EC1DC86921A8518F002C6DDF /* UIView+Frame.h */,
+				EC1DC86A21A8518F002C6DDF /* UIView+Frame.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		ECB9D93621A7B2D60065D1E1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				ECB9D93721A7B2D60065D1E1 /* Discover */,
+				ECB9D93D21A7B2D60065D1E1 /* MyLottery */,
+				ECB9D94321A7B2D60065D1E1 /* Other */,
+				ECB9D94721A7B2D60065D1E1 /* History */,
+				ECB9D94D21A7B2D60065D1E1 /* Arena */,
+				ECB9D95321A7B2D60065D1E1 /* Main */,
+				ECB9D95921A7B2D60065D1E1 /* Hall */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		ECB9D93721A7B2D60065D1E1 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				ECB9D93821A7B2D60065D1E1 /* Controller */,
+				ECB9D93B21A7B2D60065D1E1 /* Model */,
+				ECB9D93C21A7B2D60065D1E1 /* View */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		ECB9D93821A7B2D60065D1E1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ECB9D93921A7B2D60065D1E1 /* LZDiscoverTableViewController.m */,
+				ECB9D93A21A7B2D60065D1E1 /* LZDiscoverTableViewController.h */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		ECB9D93B21A7B2D60065D1E1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ECB9D93C21A7B2D60065D1E1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ECB9D93D21A7B2D60065D1E1 /* MyLottery */ = {
+			isa = PBXGroup;
+			children = (
+				ECB9D93E21A7B2D60065D1E1 /* Controller */,
+				ECB9D94121A7B2D60065D1E1 /* Model */,
+				ECB9D94221A7B2D60065D1E1 /* View */,
+			);
+			path = MyLottery;
+			sourceTree = "<group>";
+		};
+		ECB9D93E21A7B2D60065D1E1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ECB9D94021A7B2D60065D1E1 /* LZMyLotteryViewController.h */,
+				ECB9D93F21A7B2D60065D1E1 /* LZMyLotteryViewController.m */,
+				EC1DC86D21A85C78002C6DDF /* LZMyLotteryViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		ECB9D94121A7B2D60065D1E1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ECB9D94221A7B2D60065D1E1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ECB9D94321A7B2D60065D1E1 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				EC4B67C621A7FDB2006C32FD /* Category */,
+				EC4B67C521A7FDB2006C32FD /* Lib */,
+				ECB9D94421A7B2D60065D1E1 /* AppDelegate.h */,
+				ECB9D94621A7B2D60065D1E1 /* AppDelegate.m */,
+				ECB9D94521A7B2D60065D1E1 /* main.m */,
+				EC1DC86C21A855C4002C6DDF /* 彩票项目.pch */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		ECB9D94721A7B2D60065D1E1 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				ECB9D94821A7B2D60065D1E1 /* Controller */,
+				ECB9D94B21A7B2D60065D1E1 /* Model */,
+				ECB9D94C21A7B2D60065D1E1 /* View */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		ECB9D94821A7B2D60065D1E1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ECB9D94921A7B2D60065D1E1 /* LZHistoryTableViewController.m */,
+				ECB9D94A21A7B2D60065D1E1 /* LZHistoryTableViewController.h */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		ECB9D94B21A7B2D60065D1E1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ECB9D94C21A7B2D60065D1E1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ECB9D94D21A7B2D60065D1E1 /* Arena */ = {
+			isa = PBXGroup;
+			children = (
+				ECB9D94E21A7B2D60065D1E1 /* Controller */,
+				ECB9D95121A7B2D60065D1E1 /* Model */,
+				ECB9D95221A7B2D60065D1E1 /* View */,
+			);
+			path = Arena;
+			sourceTree = "<group>";
+		};
+		ECB9D94E21A7B2D60065D1E1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ECB9D95021A7B2D60065D1E1 /* LZArenaViewController.h */,
+				ECB9D94F21A7B2D60065D1E1 /* LZArenaViewController.m */,
+				EC9CDEB121AB0D6A0057280E /* LZArenaNavViewController.h */,
+				EC9CDEB221AB0D6A0057280E /* LZArenaNavViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		ECB9D95121A7B2D60065D1E1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ECB9D95221A7B2D60065D1E1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ECB9D95321A7B2D60065D1E1 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				ECB9D95421A7B2D60065D1E1 /* Controller */,
+				ECB9D95721A7B2D60065D1E1 /* Model */,
+				ECB9D95821A7B2D60065D1E1 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		ECB9D95421A7B2D60065D1E1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ECB9D95521A7B2D60065D1E1 /* LZTabBarController.h */,
+				ECB9D95621A7B2D60065D1E1 /* LZTabBarController.m */,
+				ECC6036621A7E0A400242A06 /* LZNavigationViewController.h */,
+				ECC6036721A7E0A400242A06 /* LZNavigationViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		ECB9D95721A7B2D60065D1E1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ECB9D95821A7B2D60065D1E1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ECB4F73321A7CBC20007B2B5 /* LZTabBar.h */,
+				ECB4F73421A7CBC20007B2B5 /* LZTabBar.m */,
+				ECB4F73621A7D4F00007B2B5 /* LZTabBarButton.h */,
+				ECB4F73721A7D4F00007B2B5 /* LZTabBarButton.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ECB9D95921A7B2D60065D1E1 /* Hall */ = {
+			isa = PBXGroup;
+			children = (
+				ECB9D95A21A7B2D60065D1E1 /* Controller */,
+				ECB9D95D21A7B2D60065D1E1 /* Model */,
+				ECB9D95E21A7B2D60065D1E1 /* View */,
+			);
+			path = Hall;
+			sourceTree = "<group>";
+		};
+		ECB9D95A21A7B2D60065D1E1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ECB9D95C21A7B2D60065D1E1 /* LZHallTableViewController.h */,
+				ECB9D95B21A7B2D60065D1E1 /* LZHallTableViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		ECB9D95D21A7B2D60065D1E1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ECB9D95E21A7B2D60065D1E1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EC1DC83F21A80165002C6DDF /* LZCover.h */,
+				EC1DC84021A80165002C6DDF /* LZCover.m */,
+				EC1DC84421A806B1002C6DDF /* LZPopMenu.h */,
+				EC1DC84521A806B1002C6DDF /* LZPopMenu.m */,
+				EC1DC84221A8043A002C6DDF /* LZPopMenu.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ECEA9AE321A70CD80072C216 = {
+			isa = PBXGroup;
+			children = (
+				ECEA9AEE21A70CD80072C216 /* 彩票项目 */,
+				ECEA9AED21A70CD80072C216 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECEA9AED21A70CD80072C216 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECEA9AEC21A70CD80072C216 /* 彩票项目.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECEA9AEE21A70CD80072C216 /* 彩票项目 */ = {
+			isa = PBXGroup;
+			children = (
+				ECB9D93621A7B2D60065D1E1 /* Classes */,
+				ECEA9AF821A70CD90072C216 /* Assets.xcassets */,
+				ECEA9AFA21A70CD90072C216 /* LaunchScreen.storyboard */,
+				ECEA9AFD21A70CD90072C216 /* Info.plist */,
+			);
+			path = "彩票项目";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECEA9AEB21A70CD80072C216 /* 彩票项目 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECEA9B0221A70CD90072C216 /* Build configuration list for PBXNativeTarget "彩票项目" */;
+			buildPhases = (
+				ECEA9AE821A70CD80072C216 /* Sources */,
+				ECEA9AE921A70CD80072C216 /* Frameworks */,
+				ECEA9AEA21A70CD80072C216 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "彩票项目";
+			productName = "彩票项目";
+			productReference = ECEA9AEC21A70CD80072C216 /* 彩票项目.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECEA9AE421A70CD80072C216 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LZ;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = LZ;
+				TargetAttributes = {
+					ECEA9AEB21A70CD80072C216 = {
+						CreatedOnToolsVersion = 10.1;
+						DevelopmentTeam = PXKRS4XWUT;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = ECEA9AE721A70CD80072C216 /* Build configuration list for PBXProject "彩票项目" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECEA9AE321A70CD80072C216;
+			productRefGroup = ECEA9AED21A70CD80072C216 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECEA9AEB21A70CD80072C216 /* 彩票项目 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECEA9AEA21A70CD80072C216 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC1DC86E21A85C78002C6DDF /* LZMyLotteryViewController.xib in Resources */,
+				ECEA9AFC21A70CD90072C216 /* LaunchScreen.storyboard in Resources */,
+				EC1DC84321A8043A002C6DDF /* LZPopMenu.xib in Resources */,
+				ECEA9AF921A70CD90072C216 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECEA9AE821A70CD80072C216 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB9D96521A7B2D60065D1E1 /* LZTabBarController.m in Sources */,
+				ECB9D96221A7B2D60065D1E1 /* AppDelegate.m in Sources */,
+				EC1DC84621A806B1002C6DDF /* LZPopMenu.m in Sources */,
+				EC1DC86B21A8518F002C6DDF /* UIView+Frame.m in Sources */,
+				ECB9D96021A7B2D60065D1E1 /* LZMyLotteryViewController.m in Sources */,
+				ECB9D96421A7B2D60065D1E1 /* LZArenaViewController.m in Sources */,
+				EC9CDEB321AB0D6A0057280E /* LZArenaNavViewController.m in Sources */,
+				ECB4F73521A7CBC20007B2B5 /* LZTabBar.m in Sources */,
+				EC4B67C921A7FDC1006C32FD /* UIImage+LZ.m in Sources */,
+				ECB9D96621A7B2D60065D1E1 /* LZHallTableViewController.m in Sources */,
+				ECC6036821A7E0A400242A06 /* LZNavigationViewController.m in Sources */,
+				EC1DC84121A80165002C6DDF /* LZCover.m in Sources */,
+				ECB9D96121A7B2D60065D1E1 /* main.m in Sources */,
+				ECB4F73821A7D4F00007B2B5 /* LZTabBarButton.m in Sources */,
+				ECB9D96321A7B2D60065D1E1 /* LZHistoryTableViewController.m in Sources */,
+				ECB9D95F21A7B2D60065D1E1 /* LZDiscoverTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ECEA9AFA21A70CD90072C216 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECEA9AFB21A70CD90072C216 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECEA9B0021A70CD90072C216 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ECEA9B0121A70CD90072C216 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECEA9B0321A70CD90072C216 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PXKRS4XWUT;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "彩票项目/Classes/Other/彩票项目.pch";
+				INFOPLIST_FILE = "彩票项目/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.wdq.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		ECEA9B0421A70CD90072C216 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PXKRS4XWUT;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "彩票项目/Classes/Other/彩票项目.pch";
+				INFOPLIST_FILE = "彩票项目/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.wdq.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECEA9AE721A70CD80072C216 /* Build configuration list for PBXProject "彩票项目" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECEA9B0021A70CD90072C216 /* Debug */,
+				ECEA9B0121A70CD90072C216 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECEA9B0221A70CD90072C216 /* Build configuration list for PBXNativeTarget "彩票项目" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECEA9B0321A70CD90072C216 /* Debug */,
+				ECEA9B0421A70CD90072C216 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECEA9AE421A70CD80072C216 /* Project object */;
+}

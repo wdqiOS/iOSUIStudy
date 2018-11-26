@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="OGG-An-WcJ" userLabel="LZWheelView" customClass="LZWheelView">
+            <rect key="frame" x="0.0" y="0.0" width="286" height="286"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LuckyBaseBackground" translatesAutoresizingMaskIntoConstraints="NO" id="jGI-Lw-dLL">
+                    <rect key="frame" x="0.0" y="0.0" width="286" height="286"/>
+                </imageView>
+                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LuckyRotateWheel" translatesAutoresizingMaskIntoConstraints="NO" id="kYL-D8-psJ">
+                    <rect key="frame" x="0.0" y="0.0" width="286" height="286"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VjN-s6-bKt">
+                    <rect key="frame" x="102.5" y="102.5" width="81" height="81"/>
+                    <state key="normal" image="LuckyCenterButton"/>
+                    <state key="highlighted" image="LuckyCenterButtonPressed"/>
+                    <connections>
+                        <action selector="startChoose:" destination="OGG-An-WcJ" eventType="touchUpInside" id="RUk-oL-FaH"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="jGI-Lw-dLL" firstAttribute="trailing" secondItem="cB3-Ny-omL" secondAttribute="trailing" id="DR1-v9-fo4"/>
+                <constraint firstItem="cB3-Ny-omL" firstAttribute="bottom" secondItem="kYL-D8-psJ" secondAttribute="bottom" id="JfX-3S-BQJ"/>
+                <constraint firstItem="kYL-D8-psJ" firstAttribute="leading" secondItem="cB3-Ny-omL" secondAttribute="leading" id="LU6-GX-qOE"/>
+                <constraint firstItem="VjN-s6-bKt" firstAttribute="centerX" secondItem="OGG-An-WcJ" secondAttribute="centerX" id="QCY-lN-4et"/>
+                <constraint firstItem="kYL-D8-psJ" firstAttribute="top" secondItem="cB3-Ny-omL" secondAttribute="top" id="UWW-8B-g3S"/>
+                <constraint firstItem="VjN-s6-bKt" firstAttribute="centerY" secondItem="OGG-An-WcJ" secondAttribute="centerY" id="bM3-yN-ZsS"/>
+                <constraint firstItem="cB3-Ny-omL" firstAttribute="trailing" secondItem="kYL-D8-psJ" secondAttribute="trailing" id="gFV-Gf-krn"/>
+                <constraint firstItem="jGI-Lw-dLL" firstAttribute="bottom" secondItem="cB3-Ny-omL" secondAttribute="bottom" id="lYc-IS-lh1"/>
+                <constraint firstItem="jGI-Lw-dLL" firstAttribute="leading" secondItem="cB3-Ny-omL" secondAttribute="leading" id="s9c-Db-eID"/>
+                <constraint firstItem="jGI-Lw-dLL" firstAttribute="top" secondItem="cB3-Ny-omL" secondAttribute="top" id="uRY-RV-zoy"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="cB3-Ny-omL"/>
+            <connections>
+                <outlet property="contentV" destination="kYL-D8-psJ" id="jdI-wK-QEt"/>
+            </connections>
+            <point key="canvasLocation" x="-440" y="-814"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="LuckyBaseBackground" width="286" height="286"/>
+        <image name="LuckyCenterButton" width="81" height="81"/>
+        <image name="LuckyCenterButtonPressed" width="81" height="81"/>
+        <image name="LuckyRotateWheel" width="286" height="286"/>
+    </resources>
+</document>
