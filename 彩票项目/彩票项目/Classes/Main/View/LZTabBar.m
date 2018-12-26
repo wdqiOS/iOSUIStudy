@@ -83,7 +83,7 @@
     int i = 0;
     for (UIButton *button in self.subviews) {
         buttonX = buttonW * i;
-        if (i == 0) {
+        if (i == 0 && self.selectButton == nil) {
             [self buttonClick:button];
         }
         button.frame = CGRectMake(buttonX, buttonY, buttonW, buttonH);

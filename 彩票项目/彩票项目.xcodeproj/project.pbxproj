@@ -12,8 +12,16 @@
 		EC1DC84621A806B1002C6DDF /* LZPopMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1DC84521A806B1002C6DDF /* LZPopMenu.m */; };
 		EC1DC86B21A8518F002C6DDF /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1DC86A21A8518F002C6DDF /* UIView+Frame.m */; };
 		EC1DC86E21A85C78002C6DDF /* LZMyLotteryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC1DC86D21A85C78002C6DDF /* LZMyLotteryViewController.xib */; };
+		EC33D25F21AC44F900507448 /* LZNewFeatureCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC33D25E21AC44F900507448 /* LZNewFeatureCollectionViewController.m */; };
+		EC33D26221AC4DF700507448 /* LZNewFeatureCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EC33D26121AC4DF700507448 /* LZNewFeatureCollectionViewCell.m */; };
+		EC36575B21AB932600EEFED9 /* LZDiscoverTableViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC36575A21AB932600EEFED9 /* LZDiscoverTableViewController.storyboard */; };
+		EC36575E21AB9FF100EEFED9 /* LZBuyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC36575D21AB9FF100EEFED9 /* LZBuyViewController.m */; };
+		EC36576121ABA0CB00EEFED9 /* LZTitleViewButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EC36576021ABA0CB00EEFED9 /* LZTitleViewButton.m */; };
 		EC4B67C921A7FDC1006C32FD /* UIImage+LZ.m in Sources */ = {isa = PBXBuildFile; fileRef = EC4B67C821A7FDC1006C32FD /* UIImage+LZ.m */; };
 		EC9CDEB321AB0D6A0057280E /* LZArenaNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9CDEB221AB0D6A0057280E /* LZArenaNavViewController.m */; };
+		ECA72FFA21ACFD180028E747 /* LZSaveTool.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA72FF921ACFD180028E747 /* LZSaveTool.m */; };
+		ECA72FFE21AD1C330028E747 /* LZRootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA72FFD21AD1C330028E747 /* LZRootVC.m */; };
+		ECA7300521AD1FBF0028E747 /* LZSettingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA7300421AD1FBF0028E747 /* LZSettingTableViewController.m */; };
 		ECB4F73521A7CBC20007B2B5 /* LZTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB4F73421A7CBC20007B2B5 /* LZTabBar.m */; };
 		ECB4F73821A7D4F00007B2B5 /* LZTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB4F73721A7D4F00007B2B5 /* LZTabBarButton.m */; };
 		ECB9D95F21A7B2D60065D1E1 /* LZDiscoverTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB9D93921A7B2D60065D1E1 /* LZDiscoverTableViewController.m */; };
@@ -24,6 +32,20 @@
 		ECB9D96421A7B2D60065D1E1 /* LZArenaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB9D94F21A7B2D60065D1E1 /* LZArenaViewController.m */; };
 		ECB9D96521A7B2D60065D1E1 /* LZTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB9D95621A7B2D60065D1E1 /* LZTabBarController.m */; };
 		ECB9D96621A7B2D60065D1E1 /* LZHallTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB9D95B21A7B2D60065D1E1 /* LZHallTableViewController.m */; };
+		ECBAB65D21AD33490082918F /* LZSettingItem.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBAB65C21AD33490082918F /* LZSettingItem.m */; };
+		ECBAB66021AD3B310082918F /* LZSettingGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBAB65F21AD3B310082918F /* LZSettingGroup.m */; };
+		ECBAB66321AD42560082918F /* LZSettingArrowItem.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBAB66221AD42560082918F /* LZSettingArrowItem.m */; };
+		ECBAB66621AD42800082918F /* LZSettingSwitchItem.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBAB66521AD42800082918F /* LZSettingSwitchItem.m */; };
+		ECBAB66921AD45DA0082918F /* LZSettingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBAB66821AD45DA0082918F /* LZSettingTableViewCell.m */; };
+		ECBAB66C21AE3C1C0082918F /* LZPushTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBAB66B21AE3C1C0082918F /* LZPushTableViewController.m */; };
+		ECBAB68421AE43A00082918F /* WJSuccessView.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBAB67B21AE43A00082918F /* WJSuccessView.m */; };
+		ECBAB68521AE43A00082918F /* MBProgressHUD+WJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBAB67C21AE43A00082918F /* MBProgressHUD+WJExtension.m */; };
+		ECBAB68621AE43A00082918F /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBAB67D21AE43A00082918F /* MBProgressHUD.m */; };
+		ECBAB68721AE43A00082918F /* WJColouredRibbonAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBAB67E21AE43A00082918F /* WJColouredRibbonAnimation.m */; };
+		ECBAB68821AE43A00082918F /* MBProgressExtension.bundle in Resources */ = {isa = PBXBuildFile; fileRef = ECBAB68121AE43A00082918F /* MBProgressExtension.bundle */; };
+		ECBAB68B21AE73E90082918F /* LZScoreTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBAB68A21AE73E90082918F /* LZScoreTableViewController.m */; };
+		ECBAB68E21AE74380082918F /* LZBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBAB68D21AE74380082918F /* LZBaseTableViewController.m */; };
+		ECBAB69221AF047B0082918F /* LZAwardTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBAB69121AF047B0082918F /* LZAwardTableViewController.m */; };
 		ECC6036821A7E0A400242A06 /* LZNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC6036721A7E0A400242A06 /* LZNavigationViewController.m */; };
 		ECEA9AF921A70CD90072C216 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECEA9AF821A70CD90072C216 /* Assets.xcassets */; };
 		ECEA9AFC21A70CD90072C216 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECEA9AFA21A70CD90072C216 /* LaunchScreen.storyboard */; };
@@ -39,10 +61,25 @@
 		EC1DC86A21A8518F002C6DDF /* UIView+Frame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		EC1DC86C21A855C4002C6DDF /* 彩票项目.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "彩票项目.pch"; sourceTree = "<group>"; };
 		EC1DC86D21A85C78002C6DDF /* LZMyLotteryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LZMyLotteryViewController.xib; sourceTree = "<group>"; };
+		EC33D25D21AC44F900507448 /* LZNewFeatureCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZNewFeatureCollectionViewController.h; sourceTree = "<group>"; };
+		EC33D25E21AC44F900507448 /* LZNewFeatureCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZNewFeatureCollectionViewController.m; sourceTree = "<group>"; };
+		EC33D26021AC4DF700507448 /* LZNewFeatureCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZNewFeatureCollectionViewCell.h; sourceTree = "<group>"; };
+		EC33D26121AC4DF700507448 /* LZNewFeatureCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZNewFeatureCollectionViewCell.m; sourceTree = "<group>"; };
+		EC36575A21AB932600EEFED9 /* LZDiscoverTableViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LZDiscoverTableViewController.storyboard; sourceTree = "<group>"; };
+		EC36575C21AB9FF100EEFED9 /* LZBuyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZBuyViewController.h; sourceTree = "<group>"; };
+		EC36575D21AB9FF100EEFED9 /* LZBuyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZBuyViewController.m; sourceTree = "<group>"; };
+		EC36575F21ABA0CB00EEFED9 /* LZTitleViewButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZTitleViewButton.h; sourceTree = "<group>"; };
+		EC36576021ABA0CB00EEFED9 /* LZTitleViewButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZTitleViewButton.m; sourceTree = "<group>"; };
 		EC4B67C721A7FDC1006C32FD /* UIImage+LZ.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+LZ.h"; sourceTree = "<group>"; };
 		EC4B67C821A7FDC1006C32FD /* UIImage+LZ.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LZ.m"; sourceTree = "<group>"; };
 		EC9CDEB121AB0D6A0057280E /* LZArenaNavViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZArenaNavViewController.h; sourceTree = "<group>"; };
 		EC9CDEB221AB0D6A0057280E /* LZArenaNavViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZArenaNavViewController.m; sourceTree = "<group>"; };
+		ECA72FF821ACFD180028E747 /* LZSaveTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZSaveTool.h; sourceTree = "<group>"; };
+		ECA72FF921ACFD180028E747 /* LZSaveTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZSaveTool.m; sourceTree = "<group>"; };
+		ECA72FFC21AD1C330028E747 /* LZRootVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZRootVC.h; sourceTree = "<group>"; };
+		ECA72FFD21AD1C330028E747 /* LZRootVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZRootVC.m; sourceTree = "<group>"; };
+		ECA7300321AD1FBF0028E747 /* LZSettingTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZSettingTableViewController.h; sourceTree = "<group>"; };
+		ECA7300421AD1FBF0028E747 /* LZSettingTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZSettingTableViewController.m; sourceTree = "<group>"; };
 		ECB4F73321A7CBC20007B2B5 /* LZTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZTabBar.h; sourceTree = "<group>"; };
 		ECB4F73421A7CBC20007B2B5 /* LZTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZTabBar.m; sourceTree = "<group>"; };
 		ECB4F73621A7D4F00007B2B5 /* LZTabBarButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZTabBarButton.h; sourceTree = "<group>"; };
@@ -62,6 +99,33 @@
 		ECB9D95621A7B2D60065D1E1 /* LZTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZTabBarController.m; sourceTree = "<group>"; };
 		ECB9D95B21A7B2D60065D1E1 /* LZHallTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZHallTableViewController.m; sourceTree = "<group>"; };
 		ECB9D95C21A7B2D60065D1E1 /* LZHallTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZHallTableViewController.h; sourceTree = "<group>"; };
+		ECBAB65B21AD33490082918F /* LZSettingItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZSettingItem.h; sourceTree = "<group>"; };
+		ECBAB65C21AD33490082918F /* LZSettingItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZSettingItem.m; sourceTree = "<group>"; };
+		ECBAB65E21AD3B310082918F /* LZSettingGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZSettingGroup.h; sourceTree = "<group>"; };
+		ECBAB65F21AD3B310082918F /* LZSettingGroup.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZSettingGroup.m; sourceTree = "<group>"; };
+		ECBAB66121AD42560082918F /* LZSettingArrowItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZSettingArrowItem.h; sourceTree = "<group>"; };
+		ECBAB66221AD42560082918F /* LZSettingArrowItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZSettingArrowItem.m; sourceTree = "<group>"; };
+		ECBAB66421AD42800082918F /* LZSettingSwitchItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZSettingSwitchItem.h; sourceTree = "<group>"; };
+		ECBAB66521AD42800082918F /* LZSettingSwitchItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZSettingSwitchItem.m; sourceTree = "<group>"; };
+		ECBAB66721AD45DA0082918F /* LZSettingTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZSettingTableViewCell.h; sourceTree = "<group>"; };
+		ECBAB66821AD45DA0082918F /* LZSettingTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZSettingTableViewCell.m; sourceTree = "<group>"; };
+		ECBAB66A21AE3C1C0082918F /* LZPushTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZPushTableViewController.h; sourceTree = "<group>"; };
+		ECBAB66B21AE3C1C0082918F /* LZPushTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZPushTableViewController.m; sourceTree = "<group>"; };
+		ECBAB67B21AE43A00082918F /* WJSuccessView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJSuccessView.m; sourceTree = "<group>"; };
+		ECBAB67C21AE43A00082918F /* MBProgressHUD+WJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+WJExtension.m"; sourceTree = "<group>"; };
+		ECBAB67D21AE43A00082918F /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		ECBAB67E21AE43A00082918F /* WJColouredRibbonAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJColouredRibbonAnimation.m; sourceTree = "<group>"; };
+		ECBAB67F21AE43A00082918F /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		ECBAB68021AE43A00082918F /* MBProgressHUD+WJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+WJExtension.h"; sourceTree = "<group>"; };
+		ECBAB68121AE43A00082918F /* MBProgressExtension.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressExtension.bundle; sourceTree = "<group>"; };
+		ECBAB68221AE43A00082918F /* WJSuccessView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJSuccessView.h; sourceTree = "<group>"; };
+		ECBAB68321AE43A00082918F /* WJColouredRibbonAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJColouredRibbonAnimation.h; sourceTree = "<group>"; };
+		ECBAB68921AE73E90082918F /* LZScoreTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZScoreTableViewController.h; sourceTree = "<group>"; };
+		ECBAB68A21AE73E90082918F /* LZScoreTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZScoreTableViewController.m; sourceTree = "<group>"; };
+		ECBAB68C21AE74380082918F /* LZBaseTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZBaseTableViewController.h; sourceTree = "<group>"; };
+		ECBAB68D21AE74380082918F /* LZBaseTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZBaseTableViewController.m; sourceTree = "<group>"; };
+		ECBAB69021AF047B0082918F /* LZAwardTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZAwardTableViewController.h; sourceTree = "<group>"; };
+		ECBAB69121AF047B0082918F /* LZAwardTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZAwardTableViewController.m; sourceTree = "<group>"; };
 		ECC6036621A7E0A400242A06 /* LZNavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZNavigationViewController.h; sourceTree = "<group>"; };
 		ECC6036721A7E0A400242A06 /* LZNavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZNavigationViewController.m; sourceTree = "<group>"; };
 		ECEA9AEC21A70CD80072C216 /* 彩票项目.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "彩票项目.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -81,9 +145,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EC33D25921AC44E300507448 /* NewFeature(新特性) */ = {
+			isa = PBXGroup;
+			children = (
+				EC33D25A21AC44E300507448 /* Model */,
+				EC33D25B21AC44E300507448 /* View */,
+				EC33D25C21AC44E300507448 /* ViewController */,
+			);
+			path = "NewFeature(新特性)";
+			sourceTree = "<group>";
+		};
+		EC33D25A21AC44E300507448 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EC33D25B21AC44E300507448 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EC33D26021AC4DF700507448 /* LZNewFeatureCollectionViewCell.h */,
+				EC33D26121AC4DF700507448 /* LZNewFeatureCollectionViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EC33D25C21AC44E300507448 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EC33D25D21AC44F900507448 /* LZNewFeatureCollectionViewController.h */,
+				EC33D25E21AC44F900507448 /* LZNewFeatureCollectionViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 		EC4B67C521A7FDB2006C32FD /* Lib */ = {
 			isa = PBXGroup;
 			children = (
+				ECBAB67A21AE43A00082918F /* MBProgressHUD+WJExtension */,
 			);
 			path = Lib;
 			sourceTree = "<group>";
@@ -99,9 +199,90 @@
 			path = Category;
 			sourceTree = "<group>";
 		};
+		ECA72FF621ACFCFF0028E747 /* Tool(业务逻辑) */ = {
+			isa = PBXGroup;
+			children = (
+				ECA72FFB21AD1C1B0028E747 /* RootVC */,
+				ECA72FF721ACFCFF0028E747 /* SaveTool */,
+			);
+			path = "Tool(业务逻辑)";
+			sourceTree = "<group>";
+		};
+		ECA72FF721ACFCFF0028E747 /* SaveTool */ = {
+			isa = PBXGroup;
+			children = (
+				ECA72FF821ACFD180028E747 /* LZSaveTool.h */,
+				ECA72FF921ACFD180028E747 /* LZSaveTool.m */,
+			);
+			path = SaveTool;
+			sourceTree = "<group>";
+		};
+		ECA72FFB21AD1C1B0028E747 /* RootVC */ = {
+			isa = PBXGroup;
+			children = (
+				ECA72FFC21AD1C330028E747 /* LZRootVC.h */,
+				ECA72FFD21AD1C330028E747 /* LZRootVC.m */,
+			);
+			path = RootVC;
+			sourceTree = "<group>";
+		};
+		ECA72FFF21AD1F9D0028E747 /* Setting(设置) */ = {
+			isa = PBXGroup;
+			children = (
+				ECA7300021AD1F9D0028E747 /* Controller */,
+				ECA7300121AD1F9D0028E747 /* Model */,
+				ECA7300221AD1F9D0028E747 /* View */,
+			);
+			path = "Setting(设置)";
+			sourceTree = "<group>";
+		};
+		ECA7300021AD1F9D0028E747 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ECA7300321AD1FBF0028E747 /* LZSettingTableViewController.h */,
+				ECA7300421AD1FBF0028E747 /* LZSettingTableViewController.m */,
+				ECBAB68C21AE74380082918F /* LZBaseTableViewController.h */,
+				ECBAB68D21AE74380082918F /* LZBaseTableViewController.m */,
+				ECBAB66A21AE3C1C0082918F /* LZPushTableViewController.h */,
+				ECBAB66B21AE3C1C0082918F /* LZPushTableViewController.m */,
+				ECBAB68921AE73E90082918F /* LZScoreTableViewController.h */,
+				ECBAB68A21AE73E90082918F /* LZScoreTableViewController.m */,
+				ECBAB69021AF047B0082918F /* LZAwardTableViewController.h */,
+				ECBAB69121AF047B0082918F /* LZAwardTableViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		ECA7300121AD1F9D0028E747 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ECBAB65B21AD33490082918F /* LZSettingItem.h */,
+				ECBAB65C21AD33490082918F /* LZSettingItem.m */,
+				ECBAB66121AD42560082918F /* LZSettingArrowItem.h */,
+				ECBAB66221AD42560082918F /* LZSettingArrowItem.m */,
+				ECBAB66421AD42800082918F /* LZSettingSwitchItem.h */,
+				ECBAB66521AD42800082918F /* LZSettingSwitchItem.m */,
+				ECBAB65E21AD3B310082918F /* LZSettingGroup.h */,
+				ECBAB65F21AD3B310082918F /* LZSettingGroup.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ECA7300221AD1F9D0028E747 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ECBAB66721AD45DA0082918F /* LZSettingTableViewCell.h */,
+				ECBAB66821AD45DA0082918F /* LZSettingTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		ECB9D93621A7B2D60065D1E1 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				ECA72FFF21AD1F9D0028E747 /* Setting(设置) */,
+				ECA72FF621ACFCFF0028E747 /* Tool(业务逻辑) */,
+				EC33D25921AC44E300507448 /* NewFeature(新特性) */,
 				ECB9D93721A7B2D60065D1E1 /* Discover */,
 				ECB9D93D21A7B2D60065D1E1 /* MyLottery */,
 				ECB9D94321A7B2D60065D1E1 /* Other */,
@@ -126,8 +307,11 @@
 		ECB9D93821A7B2D60065D1E1 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				ECB9D93921A7B2D60065D1E1 /* LZDiscoverTableViewController.m */,
 				ECB9D93A21A7B2D60065D1E1 /* LZDiscoverTableViewController.h */,
+				ECB9D93921A7B2D60065D1E1 /* LZDiscoverTableViewController.m */,
+				EC36575A21AB932600EEFED9 /* LZDiscoverTableViewController.storyboard */,
+				EC36575C21AB9FF100EEFED9 /* LZBuyViewController.h */,
+				EC36575D21AB9FF100EEFED9 /* LZBuyViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -142,6 +326,8 @@
 		ECB9D93C21A7B2D60065D1E1 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				EC36575F21ABA0CB00EEFED9 /* LZTitleViewButton.h */,
+				EC36576021ABA0CB00EEFED9 /* LZTitleViewButton.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -338,6 +524,22 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		ECBAB67A21AE43A00082918F /* MBProgressHUD+WJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				ECBAB67B21AE43A00082918F /* WJSuccessView.m */,
+				ECBAB67C21AE43A00082918F /* MBProgressHUD+WJExtension.m */,
+				ECBAB67D21AE43A00082918F /* MBProgressHUD.m */,
+				ECBAB67E21AE43A00082918F /* WJColouredRibbonAnimation.m */,
+				ECBAB67F21AE43A00082918F /* MBProgressHUD.h */,
+				ECBAB68021AE43A00082918F /* MBProgressHUD+WJExtension.h */,
+				ECBAB68121AE43A00082918F /* MBProgressExtension.bundle */,
+				ECBAB68221AE43A00082918F /* WJSuccessView.h */,
+				ECBAB68321AE43A00082918F /* WJColouredRibbonAnimation.h */,
+			);
+			path = "MBProgressHUD+WJExtension";
+			sourceTree = "<group>";
+		};
 		ECEA9AE321A70CD80072C216 = {
 			isa = PBXGroup;
 			children = (
@@ -426,7 +628,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC1DC86E21A85C78002C6DDF /* LZMyLotteryViewController.xib in Resources */,
+				ECBAB68821AE43A00082918F /* MBProgressExtension.bundle in Resources */,
 				ECEA9AFC21A70CD90072C216 /* LaunchScreen.storyboard in Resources */,
+				EC36575B21AB932600EEFED9 /* LZDiscoverTableViewController.storyboard in Resources */,
 				EC1DC84321A8043A002C6DDF /* LZPopMenu.xib in Resources */,
 				ECEA9AF921A70CD90072C216 /* Assets.xcassets in Resources */,
 			);
@@ -442,19 +646,39 @@
 				ECB9D96521A7B2D60065D1E1 /* LZTabBarController.m in Sources */,
 				ECB9D96221A7B2D60065D1E1 /* AppDelegate.m in Sources */,
 				EC1DC84621A806B1002C6DDF /* LZPopMenu.m in Sources */,
+				EC33D25F21AC44F900507448 /* LZNewFeatureCollectionViewController.m in Sources */,
 				EC1DC86B21A8518F002C6DDF /* UIView+Frame.m in Sources */,
 				ECB9D96021A7B2D60065D1E1 /* LZMyLotteryViewController.m in Sources */,
 				ECB9D96421A7B2D60065D1E1 /* LZArenaViewController.m in Sources */,
+				ECBAB68521AE43A00082918F /* MBProgressHUD+WJExtension.m in Sources */,
 				EC9CDEB321AB0D6A0057280E /* LZArenaNavViewController.m in Sources */,
+				EC33D26221AC4DF700507448 /* LZNewFeatureCollectionViewCell.m in Sources */,
 				ECB4F73521A7CBC20007B2B5 /* LZTabBar.m in Sources */,
 				EC4B67C921A7FDC1006C32FD /* UIImage+LZ.m in Sources */,
+				EC36575E21AB9FF100EEFED9 /* LZBuyViewController.m in Sources */,
+				ECBAB68E21AE74380082918F /* LZBaseTableViewController.m in Sources */,
 				ECB9D96621A7B2D60065D1E1 /* LZHallTableViewController.m in Sources */,
+				ECBAB65D21AD33490082918F /* LZSettingItem.m in Sources */,
+				ECBAB68621AE43A00082918F /* MBProgressHUD.m in Sources */,
+				ECBAB68B21AE73E90082918F /* LZScoreTableViewController.m in Sources */,
+				ECA72FFA21ACFD180028E747 /* LZSaveTool.m in Sources */,
+				ECBAB66321AD42560082918F /* LZSettingArrowItem.m in Sources */,
+				ECA7300521AD1FBF0028E747 /* LZSettingTableViewController.m in Sources */,
 				ECC6036821A7E0A400242A06 /* LZNavigationViewController.m in Sources */,
 				EC1DC84121A80165002C6DDF /* LZCover.m in Sources */,
+				ECBAB69221AF047B0082918F /* LZAwardTableViewController.m in Sources */,
 				ECB9D96121A7B2D60065D1E1 /* main.m in Sources */,
+				ECBAB66021AD3B310082918F /* LZSettingGroup.m in Sources */,
+				ECBAB66C21AE3C1C0082918F /* LZPushTableViewController.m in Sources */,
 				ECB4F73821A7D4F00007B2B5 /* LZTabBarButton.m in Sources */,
+				ECBAB66921AD45DA0082918F /* LZSettingTableViewCell.m in Sources */,
+				ECBAB66621AD42800082918F /* LZSettingSwitchItem.m in Sources */,
+				ECBAB68721AE43A00082918F /* WJColouredRibbonAnimation.m in Sources */,
 				ECB9D96321A7B2D60065D1E1 /* LZHistoryTableViewController.m in Sources */,
 				ECB9D95F21A7B2D60065D1E1 /* LZDiscoverTableViewController.m in Sources */,
+				ECBAB68421AE43A00082918F /* WJSuccessView.m in Sources */,
+				ECA72FFE21AD1C330028E747 /* LZRootVC.m in Sources */,
+				EC36576121ABA0CB00EEFED9 /* LZTitleViewButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

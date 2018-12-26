@@ -5,7 +5,7 @@
 //  Created by 汪大强 on 2018/11/23.
 //  Copyright © 2018 LZ. All rights reserved.
 //
-#define LZKeyWindow [UIApplication sharedApplication].keyWindow
+
 #import "LZCover.h"
 
 @implementation LZCover

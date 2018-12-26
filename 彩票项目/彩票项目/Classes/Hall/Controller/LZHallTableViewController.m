@@ -6,7 +6,6 @@
 //  Copyright © 2018 LZ. All rights reserved.
 //
 
-#define LZKeyWindow [UIApplication sharedApplication].keyWindow
 
 #import "LZHallTableViewController.h"
 #import "LZCover.h"

@@ -13,8 +13,10 @@
 
 
 #ifdef  __OBJC__ // 只有oc文件才导入
+
 #import "UIView+Frame.h"
 #import "UIImage+LZ.h"
+#define LZKeyWindow [UIApplication sharedApplication].keyWindow
 
 #endif
 

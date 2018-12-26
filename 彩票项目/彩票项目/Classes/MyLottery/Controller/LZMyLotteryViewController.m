@@ -7,6 +7,7 @@
 //
 
 #import "LZMyLotteryViewController.h"
+#import "LZSettingTableViewController.h"
 
 @interface LZMyLotteryViewController ()
 /** 登录按钮 */
@@ -44,6 +45,9 @@
 #pragma mark - 导航条右侧按钮点击的时候调用
 -(void)config{
     NSLog(@"%s  line = %d", __func__, __LINE__);
+    LZSettingTableViewController *setting = [[LZSettingTableViewController alloc] init];
+//    setting.hidesBottomBarWhenPushed = true;
+    [self.navigationController pushViewController:setting animated:true];
 }
 
 /*

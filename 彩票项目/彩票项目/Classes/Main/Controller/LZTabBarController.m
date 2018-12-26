@@ -57,37 +57,44 @@
      3、切换子控制器 使用selectIndex
      */
     // 1. 移除系统的tabbar
-    [self.tabBar removeFromSuperview];
-    CGFloat tabBarX = self.tabBar.frame.origin.x;
-    CGFloat tabBarY = self.tabBar.frame.origin.y;
-    CGFloat tabBarW = self.tabBar.frame.size.width;
-    CGFloat tabBarH = self.tabBar.frame.size.height;
-    if ([UIApplication sharedApplication].statusBarFrame.size.height > 20) {
-        tabBarY -= 30;
-        tabBarH += 30;
-    }
+//    [self.tabBar removeFromSuperview];
+    
+    CGFloat tabBarX = 0;
+    CGFloat tabBarY = 0;
+    CGFloat tabBarW = self.tabBar.bounds.size.width;
+    CGFloat tabBarH = self.tabBar.bounds.size.height;
     // 2. 添加自定义的tabbar
     LZTabBar *tabBar = [[LZTabBar alloc] initWithFrame:CGRectMake(tabBarX, tabBarY, tabBarW, tabBarH)];
     // 子控制器的个数
-//    tabBar.count = self.viewControllers.count;
     tabBar.items = self.items;
-    [self.view addSubview:tabBar];
-//    tabBar.frame = self.tabBar.frame;
+    [self.tabBar addSubview:tabBar];
     tabBar.delegate = self;
     tabBar.backgroundColor = [UIColor purpleColor];
     
     // 2. UIButton内容
 }
 
+-(void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+   
+}
+
 -(void)viewWillLayoutSubviews{
     [super viewWillLayoutSubviews];
-//    [self.tabBar.subviews enumerateObjectsUsingBlock:^(__kindof UIView * obj, NSUInteger idx, BOOL * stop) {
-//        if ([obj isKindOfClass:[UIControl class]]) {
-//            [obj removeFromSuperview];
-//        }
-//    }];
-    // 移除系统的tabbar
-    [self.tabBar removeFromSuperview];
+   
+}
+
+-(void)viewDidLayoutSubviews{
+    [super viewDidLayoutSubviews];
+    // 移除tabbar子控件
+    // UITabBarButton 类型是私有属性
+    [self.tabBar.subviews enumerateObjectsUsingBlock:^(__kindof UIView * obj, NSUInteger idx, BOOL * stop) {
+//        NSLog(@"class ==== %@", obj);
+        // 采取逆向思维判断一下当前控件是不是LZTabBar，如果不是直接移除
+        if (![obj isKindOfClass:[LZTabBar class]]) {
+            [obj removeFromSuperview];
+        }
+    }];
 }
 
 #pragma mark --------------------
@@ -126,7 +133,11 @@
                              image:[UIImage imageNamed:@"TabBar_Arena_new"]
                        selectImage:[UIImage imageNamed:@"TabBar_Arena_selected_new"] title:nil];
     // 3. 发现
-    LZDiscoverTableViewController *discover = [[LZDiscoverTableViewController alloc] init];
+    // 3.1 加载storyboard
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"LZDiscoverTableViewController" bundle:nil];
+    // 3.2 初始化控制器(初始化箭头指向的控制器)
+    LZDiscoverTableViewController *discover = [storyboard instantiateInitialViewController];
+//    LZDiscoverTableViewController *discover = [[LZDiscoverTableViewController alloc] init];
     [self setupOneChilidController:discover
                              image:[UIImage imageNamed:@"TabBar_Discovery_new"]
                        selectImage:[UIImage imageNamed:@"TabBar_Discovery_selected_new"] title:@"发现"];

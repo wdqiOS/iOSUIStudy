@@ -8,6 +8,9 @@
 
 #import "AppDelegate.h"
 #import "LZTabBarController.h"
+#import "LZNewFeatureCollectionViewController.h"
+#import "LZSaveTool.h"
+#import "LZRootVC.h"
 
 
 @interface AppDelegate ()
@@ -43,12 +46,20 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+
     // 1. 创建窗口
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    
+  
+    
+    // 流水布局
+//    UICollectionViewLayout *flowLayout = [[UICollectionViewLayout alloc] init];
+//    rootVC = [[LZNewFeatureCollectionViewController alloc] init];
+    
     // 2. 设置窗口根控制器
     // 2.1 创建窗口根控制器
-    UITabBarController *tabBarVC = [[LZTabBarController alloc] init];
-    self.window.rootViewController = tabBarVC;
+//    UITabBarController *tabBarVC = [[LZTabBarController alloc] init];
+    self.window.rootViewController = [LZRootVC chooseWindowRootVC];
     
     
     // 3. 窗口显示
